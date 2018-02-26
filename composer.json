@@ -1,0 +1,33 @@
+{
+    "name": "xapi/restful",
+    "description": "the restful api framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "xapi",
+        "ORM"
+    ],
+    "homepage": "http://xapi.eval.top",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "eval",
+            "email": "lihaibo123as@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "topthink/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
